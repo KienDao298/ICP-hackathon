@@ -247,8 +247,9 @@ button[type="submit"] {
 
 // Responsive design
 @media (max-width: 640px) {
-  .app {
-    padding: 1.5rem 1rem;
+  .logo {
+    flex-direction: column;
+    gap: 12px;
   }
 
   .title {
